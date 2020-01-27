@@ -12,7 +12,7 @@
 5. Run `ant compile`.
 6. Run `ant jar`.
 7. Run `java -cp build/jar/args.jar com.cleancoder.args.ArgsMain`.
-8. For running tests, run `java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java testCreateWithNoSchemaOrArguments`.
+8. For running tests, run `java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java testCreateWithNoSchemaOrArguments` or any otehr test you want to run.
 
 ## Code Refactoring Methods Used:
 - Changed single letter variables like ‘m’, ‘am’ to more meaningful variable names.
